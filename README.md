@@ -2,6 +2,8 @@
 
 Here is the boilerplate source code to build a Chrome Extension using React, Typescript & TailwindCSS for assist form filling.
 
+![Screenshot](https://raw.githubusercontent.com/helloferdie/chrome-extension/main/screenshot.jpg)
+
 ## Run
 
 To run this project make sure you have install pnpm with

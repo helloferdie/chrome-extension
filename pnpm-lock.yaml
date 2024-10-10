@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@primer/octicons-react':
+        specifier: ^19.11.0
+        version: 19.11.0(react@18.3.1)
       autoprefixer:
         specifier: ^10.4.20
         version: 10.4.20(postcss@8.4.47)
@@ -386,6 +389,12 @@ packages:
   '@pkgjs/parseargs@0.11.0':
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
+
+  '@primer/octicons-react@19.11.0':
+    resolution: {integrity: sha512-8PpCz7cpYY2GCGnJ/G9UARh9PH4C290l31YjriQHZ+WsagE37ntKXhFwq+s4OWoRqZ7fA7HeU81zGDFHQi0VKg==}
+    engines: {node: '>=8'}
+    peerDependencies:
+      react: '>=16.3'
 
   '@rollup/rollup-android-arm-eabi@4.24.0':
     resolution: {integrity: sha512-Q6HJd7Y6xdB48x8ZNVDOqsbh2uByBhgK8PiQgPhwkIw/HC/YX5Ghq2mQY5sRMZWHb3VsFkWooUVOZHKr7DmDIA==}
@@ -1680,6 +1689,10 @@ snapshots:
 
   '@pkgjs/parseargs@0.11.0':
     optional: true
+
+  '@primer/octicons-react@19.11.0(react@18.3.1)':
+    dependencies:
+      react: 18.3.1
 
   '@rollup/rollup-android-arm-eabi@4.24.0':
     optional: true
