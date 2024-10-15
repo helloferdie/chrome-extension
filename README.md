@@ -6,11 +6,21 @@ Here is the boilerplate source code to build a Chrome Extension using React, Typ
 
 ## Run
 
-To run this project make sure you have install pnpm with
+To run this project make sure you have install node
 
 ```
-npm install -g turbo
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
 
+nvm install 20
+
+node -v
+
+npm -v
+```
+
+Then install pnpm with
+
+```
 corepack enable pnpm
 
 pnpm install --frozen-lockfile
